@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+ipykernel = "*"
+mimesis = "*"
+black = "*"
+
+[packages]
+flask = "*"
+flask-api = "*"
+pytest = "*"
+mypy = "*"
+returns = "*"
+docopt = "*"
+requests = "*"
+coverage = "*"
+knb = {editable = true,path = "./../knb-core"}
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
